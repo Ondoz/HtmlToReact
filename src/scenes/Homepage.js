@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Btn from 'elements/Buttons'
+import Button from 'elements/Button'
 
 export default function Homepage() {
     return (
         <div>
-            <Btn>Sample</Btn>    
+            <Button isPrimary isSmall>SingUp</Button>    
         </div>
     )
 }
